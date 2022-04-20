@@ -1,0 +1,12 @@
+file_format: "1"
+id: advent
+name: Advent 
+type: shield
+url: https://github.com/tysonstickney/advent
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+siblings:
+  - advent_left
+  - advent_right
