@@ -31,7 +31,7 @@
 		&kp N1 &kp N1 &kp N1       &kp N1  &kp N1		&kp N1 &kp N1 &kp N1 &kp N1         &kp N1
 		&kp Q  &kp W  &kp E        &kp R   &kp N1 		&kp U  &kp I  &kp O  &kp P          &kp LBKT
 		&kp A  &kp S  &kp D        &kp F   &kp N1		&kp J  &kp K  &kp L  &kp SEMICOLON  &kp APOS
-			      &tog PLOVER  &kp C   &kp V		&kp N  &kp M  &kp ESC
+			      &tog PLOVER  &kp C   &kp V		&kp N  &kp M  &kp Y
 		>;
 		}; 		
 	};
