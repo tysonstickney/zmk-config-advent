@@ -10,7 +10,7 @@
 #include <dt-bindings/zmk/mouse.h>
 
 #define DEFAULT 0
-#define PLOVER   1
+#define PLOVER 1
 
 keymap {
 	compatible = "zmk,keymap";
