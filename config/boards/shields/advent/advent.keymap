@@ -12,6 +12,8 @@
 #define DEFAULT 0
 #define PLOVER 1
 
+#define NONE 0
+
 / {
 	keymap {
 		compatible = "zmk,keymap";
