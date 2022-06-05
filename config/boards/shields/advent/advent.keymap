@@ -9,7 +9,6 @@
 
 #define DEFAULT 0
 #define MISC 1
-#define PLOVER 2
 
 / {
 	keymap {
@@ -18,9 +17,9 @@
 
 		default_layer {
 		bindings = <
-		&kp Q &kp D &kp R       &kp W     &kp B	        &kp J   &kp F     &kp U     &kp P       &kp SEMICOLON
-		&kp A &kp S &kp H       &kp T     &kp G	        &kp Y   &kp N     &kp E     &kp O       &kp I
-		&kp Z &kp X &kp M       &kp C     &kp V	        &kp K   &kp L     &kp COMMA &kp PERIOD  &kp SLASH
+		&kp Q &kp W &kp E       &kp R     &kp T	        &kp Y   &kp U     &kp I     &kp O       &kp P
+		&kp A &kp S &kp D       &kp F     &kp G	        &kp H   &kp J     &kp K     &kp L       &kp SEMICOLON
+		&kp Z &kp X &kp C       &kp V     &kp B	        &kp N   &kp M     &kp COMMA &kp PERIOD  &kp APOS
 			    &to 1  &kp BSPC   &kp LSHIFT	&kp TAB &kp SPACE &kp ENTER
 		>;
 		};    
@@ -30,17 +29,8 @@
 		&none &none &none  &none     &none	        &none   &kp N7    &kp N8 &kp N9 &none
 		&none &none &none  &none     &none	        &none   &kp N4    &kp N5 &kp N6 &none
 		&none &none &none  &none     &none	        &none   &kp N1    &kp N2 &kp N3 &kp N0
-			    &to 0  &kp BSPC  &kp LSHIFT	        &kp TAB &kp SPACE &to 2
+			    &to 0  &kp BSPC  &kp LSHIFT	        &kp TAB &kp SPACE &kp ENTER
 		>;
-		};    
-
-		plover_layer {
-		bindings = <
-		&kp N1 &kp N1 &kp N1       &kp N1  &kp N1		&kp N1 &kp N1 &kp N1 &kp N1         &kp N1
-		&kp Q  &kp W  &kp E        &kp R   &kp N1 		&kp U  &kp I  &kp O  &kp P          &kp LBKT
-		&kp A  &kp S  &kp D        &kp F   &kp N1		&kp J  &kp K  &kp L  &kp SEMICOLON  &kp APOS
-			      &to 0  &kp C   &kp V		&kp N  &kp M  &kp Y
-		>;
-		}; 		
+		};    		
 	};
 };
