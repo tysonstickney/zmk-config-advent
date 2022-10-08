@@ -20,16 +20,16 @@
 		&kp Q &kp W &kp E       &kp R     &kp T	        &kp Y   &kp U     &kp I     &kp O       &kp P
 		&kp A &kp S &kp D       &kp F     &kp G	        &kp H   &kp J     &kp K     &kp L       &kp SEMICOLON
 		&kp Z &kp X &kp C       &kp V     &kp B	        &kp N   &kp M     &kp COMMA &kp PERIOD  &kp APOS
-			    &to 1  &kp BSPC   &kp LSHIFT	&kp TAB &kp SPACE &kp ENTER
+			    &mo 1  &kp BSPC   &kp LSHIFT	&kp TAB &kp SPACE &kp ENTER
 		>;
 		};    
 		
 		misc {
 		bindings = <
-		&none &none &none  &none     &none	        &none   &kp N7    &kp N8 &kp N9 &none
-		&none &none &none  &none     &none	        &none   &kp N4    &kp N5 &kp N6 &none
-		&none &none &none  &none     &none	        &none   &kp N1    &kp N2 &kp N3 &kp N0
-			    &to 0  &kp BSPC  &kp LSHIFT	        &kp TAB &kp SPACE &kp ENTER
+		&none &none &BACKSLASH    &none          &none		&EQUAL      &kp N7    &kp N8 &kp N9 &kp N0
+		&none &none &LEFT_BRACKET &RIGHT_BRACKET &none  	&APOSTROPHE &kp N4    &kp N5 &kp N6 &SEMICOLON
+		&none &none &COMMA        &PERIOD        &none		&MINUS      &kp N1    &kp N2 &kp N3 &kp SLASH
+			    &mo 0         &kp BSPC       &kp LSHIFT	&kp TAB     &kp LSHIFT       &kp ENTER
 		>;
 		};    		
 	};
