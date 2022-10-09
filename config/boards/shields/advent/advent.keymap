@@ -26,10 +26,10 @@
 		
 		misc {
 		bindings = <
-		&none &UP       &kp BACKSLASH    &none             &none		&kp EQUAL      &kp N7     &kp N8 &kp N9 &kp N0
-		&LEFT &kp GRAVE &kp LEFT_BRACKET &kp RIGHT_BRACKET &none  	        &kp APOSTROPHE &kp N4     &kp N5 &kp N6 &kp RIGHT
-		&none &DOWN     &kp COMMA        &kp PERIOD        &none		&kp MINUS      &kp N1     &kp N2 &kp N3 &kp SLASH
-			        &mo 0            &kp BSPC          &kp LSHIFT	        &kp BSPC       &kp LSHIFT &kp SPACE
+		&none &kp UP       &kp BACKSLASH    &none             &none		&kp EQUAL      &kp N7     &kp N8 &kp N9 &kp N0
+		&kp LEFT &kp GRAVE &kp LEFT_BRACKET &kp RIGHT_BRACKET &none  	        &kp APOSTROPHE &kp N4     &kp N5 &kp N6 &kp RIGHT
+		&none &kp DOWN     &kp COMMA        &kp PERIOD        &none		&kp MINUS      &kp N1     &kp N2 &kp N3 &kp SLASH
+			           &mo 0            &kp BSPC          &kp LSHIFT	&kp BSPC       &kp LSHIFT &kp SPACE
 		>;
 		};    		
 	};
